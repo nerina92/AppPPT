@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Juguemos!"
+        android:textSize="24sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnPiedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piedra"/>
+
+    <Button
+        android:id="@+id/btnPapel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Papel"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnTijera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tijera"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
