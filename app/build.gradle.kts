@@ -51,9 +51,9 @@ android {
 
 dependencies {
 
-    implementation("androidx.navigation:navigation-compose:2.7.0")
-    implementation("androidx.activity:activity-compose:1.8.0")
-    implementation("androidx.compose.material:material:1.5.0")
+  //  implementation("androidx.navigation:navigation-compose:2.7.0")
+  //  implementation("androidx.activity:activity-compose:1.8.0")
+  //  implementation("androidx.compose.material:material:1.5.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -64,8 +64,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.androidx.navigation.compose.jvmstubs)
-    implementation(libs.androidx.navigation.compose.android)
+    //implementation(libs.androidx.navigation.compose.jvmstubs)
+   // implementation(libs.androidx.navigation.compose.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -7,22 +7,23 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.*
-import androidx.navigation.*
+/*import androidx.navigation.*
 import androidx.navigation.compose.*
 import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.rememberNavController
+import androidx.navigation.compose.rememberNavController*/
 
 @Composable
 fun PiedraPapelTijeraApp(function: @Composable () -> Unit) {
-    val navController = rememberNavController()
+   // val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = "inicio") {
-        composable("inicio") { PantallaInicio(navController) }
-        composable("juego") { PantallaJuego() }
-    }
+    //NavHost(navController = navController, startDestination = "inicio") {
+        //composable("inicio") { PantallaInicio(navController) }
+        //composable("juego") { PantallaJuego() }
+    PantallaJuego()
+    //}
 }
 
-@Composable
+/*@Composable
 fun PantallaInicio(navController: NavController) {
     Column(
         modifier = Modifier
@@ -44,7 +45,7 @@ fun PantallaInicio(navController: NavController) {
             Text("Iniciar Juego")
         }
     }
-}
+}*/
 
 @Composable
 fun PantallaJuego() {
